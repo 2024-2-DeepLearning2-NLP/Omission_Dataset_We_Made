@@ -1,0 +1,23 @@
+{
+  "_data_files": [
+    {
+      "filename": "dataset.arrow"
+    }
+  ],
+  "_fingerprint": "ea0286113d44c84a",
+  "_format_columns": [
+    "dialogue",
+    "summary",
+    "id",
+    "preds",
+    "oracle_labels",
+    "pred_labels",
+    "omission_labels",
+    "omission_words"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_indexes": {},
+  "_output_all_columns": false,
+  "_split": null
+}

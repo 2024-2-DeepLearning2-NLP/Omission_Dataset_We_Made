@@ -1,0 +1,114 @@
+{
+  "builder_name": null,
+  "citation": "",
+  "config_name": null,
+  "dataset_size": null,
+  "description": "",
+  "download_checksums": null,
+  "download_size": null,
+  "features": {
+    "dialogue": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "preds": [
+      {
+        "pred": {
+          "dtype": "string",
+          "id": null,
+          "_type": "Value"
+        },
+        "source": {
+          "dtype": "string",
+          "id": null,
+          "_type": "Value"
+        },
+        "strategy": {
+          "dtype": "string",
+          "id": null,
+          "_type": "Value"
+        }
+      }
+    ],
+    "oracle_labels": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "pred_labels": {
+      "feature": {
+        "feature": {
+          "dtype": "int64",
+          "id": null,
+          "_type": "Value"
+        },
+        "length": -1,
+        "id": null,
+        "_type": "Sequence"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "omission_labels": {
+      "feature": {
+        "feature": {
+          "dtype": "int64",
+          "id": null,
+          "_type": "Value"
+        },
+        "length": -1,
+        "id": null,
+        "_type": "Sequence"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "omission_words": {
+      "feature": {
+        "feature": {
+          "feature": {
+            "dtype": "string",
+            "id": null,
+            "_type": "Value"
+          },
+          "length": -1,
+          "id": null,
+          "_type": "Sequence"
+        },
+        "length": -1,
+        "id": null,
+        "_type": "Sequence"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": null,
+  "splits": null,
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": null
+}
