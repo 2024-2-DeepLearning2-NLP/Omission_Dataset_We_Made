@@ -1,7 +1,8 @@
 # Final Omission Dataset that We Made
 
-this example and the process of making this dataset is explained at ***Group1_Code_Demo.ipynb***
+This example and the process of making this dataset is explained at ***Group1_Code_Demo.ipynb***
 
+We were unable to make dialougesum.omission.save due to the storage issue of the GPU server
 
 ```
 +-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
